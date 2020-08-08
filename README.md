@@ -12,10 +12,11 @@ Note: you will always receive a valid array containing a random assortment of di
 
 ## Acceptance Criteria
 
-`ten_minute_walk?(['w', 's', 'e', 'e', 'n', 'n', 'e', 's', 'w', 'w']) # => true
-ten_minute_walk?(['w', 's', 'e', 'n', 'n', 'e', 's', 'w', 'w', 'w']) # => false
-ten_minute_walk?(['w', 's', 'e', 's', 's', 'e', 's', 'w', 'n', 'n']) # => false
-ten_minute_walk?(['w', 's']) # => false`
+```ten_minute_walk?(['w', 's', 'e', 'e', 'n', 'n', 'e', 's', 'w', 'w']) # => true  
+ten_minute_walk?(['w', 's', 'e', 'n', 'n', 'e', 's', 'w', 'w', 'w']) # => false  
+ten_minute_walk?(['w', 's', 'e', 's', 's', 'e', 's', 'w', 'n', 'n']) # => false  
+ten_minute_walk?(['w', 's']) # => false
+```
 
 
 ## User story
@@ -28,5 +29,3 @@ I want to know that a walk will take exactly ten minutes
 As a walker
 So that my walk isn't longer than advertised
 I want to know that a walk will end in the same place it began
-
-
