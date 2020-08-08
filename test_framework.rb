@@ -15,5 +15,10 @@ end
 def it (description, &test_block)
   # &test_block should end by calling check_result to evaluate whether the test's acceptance criteria have been met.
   print "It #{description} - "
-  test_block.call
+  yield
+end
+
+def tests_for (description, &test_block)
+  puts description
+  yield
 end

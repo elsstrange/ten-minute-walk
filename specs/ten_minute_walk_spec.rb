@@ -2,7 +2,7 @@
 # So I can fill my waiting time exactly
 # I want to know that a walk will take exactly ten minutes
 
-it "confirms that a walk will take 10 mins" do
+tests_for "confirms that a walk will take 10 mins" do
   it "approves a walk that is 10 mins" do
     # set-up
     walk = ['w', 's', 'e', 'e', 'n', 'n', 'e', 's', 'w', 'w']
@@ -40,7 +40,7 @@ it "confirms that a walk will take 10 mins" do
   end
 end
 
-it "confirms that a walk will end where it started" do
+tests_for "confirms that a walk will end where it started" do
   it "approves a walk that ends where it started" do
     # set-up
     walk = ['w', 's', 'e', 'e', 'n', 'n', 'e', 's', 'w', 'w']
