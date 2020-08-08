@@ -1,8 +1,8 @@
 require './test_framework.rb'
 
 # Source code files here
-# require './lib/SOURCE CODE FILES'
+require './lib/ten_minute_walk.rb'
 
 # Test files here
-# require './specs/TEST FILES'
+require './specs/ten_minute_walk_spec.rb'
 
